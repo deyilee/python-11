@@ -11,12 +11,11 @@ ooo = [
 #########################################
 
 aaa = []
+bbb = []
 
 for i in ooo:
     i.reverse()
     aaa.append(i)
-
-bbb = []
 
 for i in range(2 * len(aaa) - 1):
     bbb.append([])
